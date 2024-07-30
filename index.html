@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book-my-show</title>
+    <link rel="icon" type="image/x-icon" href="/images/04_favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div class="navbar">
+        <div class="logo">
+            <span> <img src="./images/bookmyshow-black-logo.svg" alt=""></span>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities">
+        </div>
+        <div class="location">
+            <span>Kochi</span>
+            <span class="dropdown">&#x25BC;</span>
+        </div>
+        <div class="sign-in">
+            <button>Sign in</button>
+        </div>
+        <div class="menu">
+            <span>&#9776;</span>
+        </div>
+    </div>
+    <!-- nav bar 2 -->
+     <div class="navbar2">
+      <ul class="left">
+        <li>Movies</li>
+        <li>Stream</li>
+        <li>Events</li>
+        <li>Plays</li>
+        <li>Sports</li>
+        <li>Activities</li>
+      </ul>
+      <ul class="right">
+        <li>ListYourShow</li>
+        <li>Corporate</li>
+        <li>Offers</li>
+        <li>Gift Cards</li>
+      </ul>
+     </div>
+
+     <!-- corousel -->
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/banner1.avif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner2.avif" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Recommended movies  -->
+     
+      <div class="sub-head"><h3>Recommended Movies</h3></div>
+      <div class="row">
+        
+        <div class="col-lg-2">
+          <a href="./kalki.html"><div class="card" style="width: 10rem;" >
+            <img src="./images/kalki-movie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Kalki</p>
+              <p class="card-text2">Action/Sci-fi/Thriller</p>
+            </div>
+          </div></a>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="card" style="width: 10rem;">
+            <img src="./images/indian2-movie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Kalki</p>
+              <p class="card-text2">Action/Sci-fi/Thriller</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="card" style="width: 10rem;">
+            <img src="./images/ullozhukku-movie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Ullozhukku</p>
+              <p class="card-text2">Drama</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="card" style="width: 10rem;">
+            <img src="./images/gaganachari-movie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Gaganachari</p>
+              <p class="card-text2">Sci-fi/Thriller</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="card" style="width: 10rem;">
+            <img src="./images/twisters-movie.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Twisters</p>
+              <p class="card-text2">Action/Thriller</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="card" style="width: 10rem;">
+            <img src="./images/idiyan-chanthu-movies.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Idiyan Chanthu</p>
+              <p class="card-text2">Action</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+     </div>
+
+     <!-- stream banner  -->
+
+     <div class="stream">
+      <img src="./images/24_stream-leadin-web-collection-202210241242.png" alt="">
+     </div>
+
+     <!-- Events -->
+      <div class="events">
+        <h4>The Best of Live Events</h4>
+      </div>
+      <div class="events-image">
+        <img src="./images/event-img-1.avif" alt=""><img src="./images/event-img-2.avif" alt="">
+      </div>
+
+      <!-- premiere -->
+      <div class="premiere1">
+        <img src="./images/premiere-banner.avif" alt="">
+       </div>
+
+       <!-- premiere cards  -->
+       <div class="premiere2"><h5>Premieres</h5><p>Brand new releases every Friday</p></div>
+       <div class="premiere2-bg">
+       <div class="row">
+         <div class="col-md-2">
+           <div class="card" style="width: 11rem;" >
+             <img src="./images/premiere-img1.avif" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text  text-white fw-semibold">Nadi Vahate</p>
+               <p class="card-text2 text-white">Marati</p>
+             </div>
+           </div>
+         </div>
+ 
+         <div class="col-md-2">
+           <div class="card" style="width: 11rem;">
+             <img src="./images/premiere-img2.avif" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-white fw-semibold">The Deep Dark</p>
+               <p class="card-text2 text-white">French</p>
+             </div>
+           </div>
+         </div>
+ 
+         <div class="col-md-2">
+           <div class="card" style="width: 11rem;">
+             <img src="./images/premiere-img3.avif" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text  text-white fw-semibold">San 84 Justice</p>
+               <p class="card-text2 text-white">Hindi</p>
+             </div>
+           </div>
+         </div>
+ 
+         <div class="col-md-2">
+           <div class="card" style="width: 11rem;">
+             <img src="./images/premiere-img4.avif" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-white fw-semibold">The Holiday S1</p>
+               <p class="card-text2 text-white">English</p>
+             </div>
+           </div>
+         </div>
+ 
+         <div class="col-md-2">
+           <div class="card" style="width: 11rem;">
+             <img src="./images/premiere-img5.avif" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-white fw-semibold">Imamdasta</p>
+               <p class="card-text2 text-white">Hindi</p>
+             </div>
+           </div>
+         </div>
+ 
+         <div class="col-md-2">
+           <div class="card" style="width: 11rem;">
+             <img src="./images/premiere-img6.avif" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-white fw-semibold">Chal Zindagi</p>
+               <p class="card-text2 text-white">Hindi</p>
+             </div>
+           </div>
+         </div>
+ 
+       </div>
+      </div>
+      
+     
+      <!-- outdoor events  -->
+      
+      <div class="outdoor-events-bg">
+        <div class="outdoor-events"><h3>Outdoor Events</h3></div>
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/outdoor-evenets-img1.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">Wonderla Amusement Park Kochi</p>
+              <p class="card-text3">Wonderla: Kochi</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/outdoor-evenets-img2.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">Freedom Virtual Marathon - Get Trophy by Courier</p>
+              <p class="card-text3">Your Place and Your Time: India</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/outdoor-evenets-img3.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">Green 10 KM Marathon Get Big Size Medal by</p>
+              <p class="card-text3">Your Place and Your Time: India</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/outdoor-evenets-img4.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">FIT INDIA MARATHON 2024</p>
+                <p class="card-text3">Your Place and Your Time: India</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/outdoor-evenets-img5.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">Solve The Rubik's Cube, Sharpen 6 Vital Skills</p>
+                <p class="card-text3">Happy Skills Events: Ghatkopar</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/outdoor-evenets-img6.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">MindFool India Tour - VirDas</p>
+                <p class="card-text3">Good Shepherd Auditorium: Bengaluru</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- laughter therapy  -->
+
+      <div class="laughter-bg">
+        <div class="laughter"><h3>Laughter Therapy</h3></div>
+        <div class="row">
+          <div class="col-lg-md-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/laughter-img1.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">MindFool India Tour - VirDas</p>
+                <p class="card-text3">Good Shepherd Auditorium: Bengaluru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-md-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/laughter-img2.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">MindFool India Tour - VirDas</p>
+                <p class="card-text3">Good Shepherd Auditorium: Bengaluru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-md-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/laughter-img3.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">MindFool India Tour - VirDas</p>
+                <p class="card-text3">Good Shepherd Auditorium: Bengaluru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-md-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/laughter-img4.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">MindFool India Tour - VirDas</p>
+                <p class="card-text3">Good Shepherd Auditorium: Bengaluru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-md-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/laughter-img5.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">MindFool India Tour - VirDas</p>
+                <p class="card-text3">Good Shepherd Auditorium: Bengaluru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-md-2">
+            <div class="card" style="width: 11rem;">
+              <img class="card-img-top" src="./images/laughter-img6.avif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text1 fw-semibold">MindFool India Tour - VirDas</p>
+                <p class="card-text3">Good Shepherd Auditorium: Bengaluru</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- trending searches  -->
+        <div class="trending-bg">
+          <div class="trending"><h3>Trending Searches Right Now</h3></div>
+          <div class="trending-searches">
+          <button class="trending-btn">
+            <h6>Kill</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Kalki 2898 AD</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Deadpool & Wolverine</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Indian 2</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Laapata Ladies</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Idiyan Chandhu</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Twisters</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Vishesham</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Raayan</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Secret</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Maharaja</h6>
+            <p>Movies</p>
+          </button>
+
+          <button class="trending-btn">
+            <h6>Guruvayoor Ambalanadayil</h6>
+            <p>Movies</p>
+          </button>
+
+        </div>  
+        </div>
+        
+        <!-- footer  -->
+        <div class="footer1">
+            <img src="./images/02_hut.svg" alt="">
+            <p class="list fw-bold">List your Show</p>
+            <p class="got">Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow</p>
+            <button class="footer-btn">Contact today!</button>
+        </div>
+
+        <div class="footer2">
+          <div class="footer2-img"><img src="./images/CUSTOMER-CARE.svg" alt=""><p class="p1">24/7 CUSTOMER CARE</p></div>
+          <div class="footer2-img"><img src="./images/RESEND.svg" alt=""><p class="p2">RESEND BOOKING CONFIRMATION</p></div>
+          <div class="footer2-img"><img src="./images/NEWSLETTER.svg" alt=""><p class="p3">SUBSCRIBE TO THE NEWSLETTER</p></div>
+        </div>
+
+        <div class="footer3">
+          <div class="footer3-headings"><p class="title fw-bold">MOVIES NOW SHOWING IN KOZHIKODE</p>
+            <p class="subtitle">Kalki 2898 AD | Kill | Idiyan Chandhu | Deadpool & Wolverine | Vishesham | Twisters | Bad Newz | Inside Out 2 | Samadhana Pusthakam | Indian 2</p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">UPCOMING MOVIES IN KOZHIKODE
+          </p>
+            <p class="subtitle">Mangta Jogi | Mafia (Kannada) | Gharat Ganpati | The UP Files | Ishwar Kya Che? | Raktaksha | Uparwala & Sons | Operation Raavan | Gally Gang Stars | Purushothamudu
+            </p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">MOVIES BY GENRE</p>
+            <p class="subtitle">Drama Movies | Action Movies | Comedy Movies | Thriller Movies | Adventure Movies | Animation Movies | Crime Movies | Adaptation Movies | Mythological Movies | Supernatural Movies</p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">MOVIES BY LANGUAGE</p>
+            <p class="subtitle">Movies in English | Movies in Malayalam | Movies in Hindi | Movies in Tamil | Movies in Telugu | Movies in Nepali | Movies in Portuguese | Movies in English 70 | Movies in Sindhi | Movies in Tulu
+            </p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">SPORTS EVENTS IN KOZHIKODE</p>
+            <p class="subtitle">Running | Archery | Athletics | Badminton | Basketball | Baseball | Bost Race | Bowling | Boxing | Card Games</p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">EVENTS IN TOP CITIES
+          </p>
+            <p class="subtitle">Events in Mumbai | Events in Delhi-NCR | Events in Chennai | Events in Bengaluru | Events in Hyderabad | Events in Pune | Events in Ahmedabad | Events in Kolkata | Events in Kochi</p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">CINEMAS IN TOP CITIES</p>
+            <p class="subtitle">Cinemas in Mumbai | Cinemas in Delhi-NCR | Cinemas in Chennal | Cinemas in Bengaluru | Cinemas in Hyderabad | Cinemas in Pune | Cinemas in Ahmedabad | Cinemas in Kolkata | Cinemas in Kochi</p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">PLAYS IN TOP CITIES</p>
+            <p class="subtitle">Plays in Mumbai | Plays in Delhi-NCR | Plays in Chennal | Plays in Bengaluru | Plays in Hyderabad | Plays in Pune | Plays in Ahmedabad | Plays in Kolkata | Plays in Kochi</p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">ACTIVITIES IN TOP CITIES</p>
+            <p class="subtitle">Activities in Mumbai | Activities in Delhi-NCR | Activities in Chennai | Activities in Bengaluru | Activities in Hyderabad | Activities in Pune | Activities in Ahmedabad | Activities in Kolkata | Activities in Kochi
+            </p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">MOVIES NOW SHOWING</p>
+            <p class="subtitle">Bad Newz Deadpool & Wolverine | Kalki 2898 AD | Indian 2 | Twisters | Darling | Bharateeyudu 2 | Raayan | Sarfira | Kill
+            </p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">COUNTRIES</p>
+            <p class="subtitle">Indonesia | Singapore | UAE | Sri Lanka | West Indies
+            </p>
+          </div>
+
+          <div class="footer3-headings"><p class="title fw-bold">HELP</p>
+            <p class="subtitle">About Us | Contact Us | Current Opening | Press Release | Press Coverage | Sitemap | FAQs | Terms and Conditions | Privacy Policy</p>
+          </div>
+
+          
+            <div class="footer3-headings"><p class="title fw-bold">BOOKMYSHOW EXCLUSIVES</p>
+              <p class="subtitle">Lollapalooza India | Superstar | BookASmile | Corporate Vouchers | Gift Cards | List My Show | Offers | Stream | Traillers
+              </p>
+            </div>
+
+            <div class="footer3-headings"><p class="title fw-bold">IPL 2024</p>
+              <p class="subtitle">Mumbai Indians | Rajasthan Royals | Kolkata Knight Riders | Lucknow Super Giants</p>
+            </div>
+        </div>
+
+        <div class="footer-logo">
+          <p class=" text-secondary">____________________________________________________________________________</p><img src="./images/03_logo.svg" alt=""><p class=" footerp text-secondary">_______________________________________________________________________</p>
+        </div>
+
+        <div class="footer-social">
+          <div class="social-images">
+          <img src="./images/facebook-logo.svg" alt="">
+          <img src="./images/x-logo.svg" alt="">
+          <img src="./images/instagram-logo.svg" alt="">
+          <img src="./images/youtube-logo.svg" alt="">
+          <img src="./images/pinterest-logo.svg" alt="">
+          <img src="./images/linked-in-logo.svg" alt="">
+        </div>
+        </div>
+
+        <div class="footer-copyright">
+          <p class="text-first">Copyright 2024 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved </p>
+          <p class="text-second">The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and im and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized punishable by law.</p>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
